@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Lives wasted by</title>
-  <meta name="description" content="Count of lives wasted by slow websites">
+  <title>Check new website | Lives wasted by</title>
+  <meta name="description" content="Number of lives wasted by slow websites">
   <meta name="author" content="drunkathons">
 
   <link rel="stylesheet" href="css/normalize.css">
@@ -18,9 +18,23 @@
   <![endif]-->
 </head>
 
-<body>
-  <main>
-    <h1>Sorrow man</h1>
+<body class="home">
+  <nav class="nav">
+    <a>Lives wasted</a>
+  </nav>
+
+  <!-- <header class="header">
+    <h1>Check new website</h1>
+  </header> -->
+
+  <main class="main">
+    <section class="site-checker">
+      <form>
+        <label for="site-checker__input" class="site-checker__label">Enter URL:</label>
+        <input id="site-checker__input" type="url" required="required" placeholder="http://www.example.com" class="site-checker__input">
+        <button type="submit" class="site-checker__button">Go</button>
+      </form>
+    </section>
   </main>
 
   <script src="js/site.js"></script>

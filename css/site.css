@@ -1,3 +1,64 @@
+/* Colors
+
+  https://coolors.co/1f271b-19647e-28afb0-f4d35e-ee964b
+  primary:    #19647e
+  secondary:  #f4d35e
+  dark-text:  #1f271b
+  light-text: ???
+  info:       #28afb0
+  warning:    #ee964b
+
+*/
+
 html {
   font-family: arial;
+  color:  #1f271b;
+}
+
+body {
+
+}
+
+button {
+  background-color: #19647e;
+  border: 1px solid #19647e;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 0.125em 0.5em;
+  transition: opacity 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.nav {
+  color: #ffffff;
+  background-color: #19647e;
+  padding: 2em 1em;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  margin: 5em auto;
+}
+
+.site-checker {
+  margin: 10em auto;
+  max-width: 960px;
+  text-align: center;
+}
+
+.site-checker__label,
+.site-checker__input,
+.site-checker__button {
+  font-size: 1.75em;
+}
+
+.site-checker__input {
+  width: 15em;
+  max-width: 80%;
+  text-align: center;
 }
